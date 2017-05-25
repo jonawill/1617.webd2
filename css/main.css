@@ -1,0 +1,614 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+	margin: 0%;
+	padding: 0%;	
+}
+
+body {
+	font-size: 14px;
+	background-color: none;
+}
+
+/* 1. Omvatting onderdelen */
+
+#wrapper_nav {
+	background-color: none;
+	width: 100%;
+	height: 11vh;
+	padding-bottom: 4vh;
+	padding-top: 1vh;
+}
+
+#wrapper_toppart {
+	background-color: none;
+	width: 100%;
+	height: 72vh;
+	margin-bottom: 12vh;
+}
+
+/*Index of home */
+
+#wrapper_indeximg {
+	background-image: url("../img/indeximg.jpg");
+	width: 100%;
+	height: 49vh;
+	padding-top: 23vh;
+	background-repeat: no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
+}
+
+#brief_overview {
+	padding-left: 15%;
+	padding-right: 15%;
+	height: 60vh;
+	width: 70%;
+	margin-bottom: 4vh;
+}
+
+#overview_top {
+	width: 100%;
+	height: 30vh;
+	float: left;
+}
+
+#top_left {
+	width: 30%;
+	height: 20vh;
+	padding-top: 10vh;
+	padding-right: 2.5%;
+	float: left;
+	text-align: right;
+}
+
+#top_middle {
+	width: 35%;
+	height: 30vh;
+	float: left;
+}
+
+#top_right {
+	width: 30%;
+	height: 20vh;
+	padding-top: 10vh;
+	padding-left: 2.5%;
+	float: left;
+	text-align: left;
+}
+
+#overview_bottom {
+	width: 100%;
+	height: 30vh;
+	float: left;
+}
+
+#bottom_left {
+	width: 47%;
+	padding-top: 2vh;
+	height: 28vh;
+	float: left;
+	padding-right: 3%;
+	text-align: right;
+}
+
+#bottom_right {
+	width: 46.9%;
+	padding-top: 2vh;
+	height: 28vh;
+	float: left;
+	padding-left: 3%;
+	text-align: left;
+}
+
+/*Over ons*/
+
+#wrapper_overonsimg {
+	width: 55%;
+	height: 62vh;
+	padding-top: 10vh;
+	float: left;
+	background-image: url("../img/overonsimg.jpg");
+	background-repeat: no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
+}
+
+#wrapper_overonstext {
+	float: left;
+	width: 25%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 8vh;
+	height: 64vh;
+}
+
+#medewerkers {
+	width: 100%;
+	height: 40vh;
+}
+
+#medewerkers2 {
+	width: 100%;
+	height: 20vh;
+	padding-top: 2vh;
+}
+
+.medewerkers_foto {
+	width: 15%;
+	height: 40vh;
+	float: left;
+	padding-left: 8%;
+	text-align: center;
+}
+
+.medewerkers_nametag {
+	width: 100%;
+	height: 9vh;
+	text-align: center;
+}
+
+.medewerkers_uitleg {
+	width: 15%;
+	height: 20vh;
+	float: left;
+	padding-left: 8%;
+	text-align: center;
+}
+
+/*Diensten*/
+
+#wrapper_dienstenimg {
+	width: 55%;
+	height: 62vh;
+	padding-top: 10vh;
+	float: left;
+	background-image: url("../img/dienstenimg.jpg");
+	background-repeat: no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
+}
+
+#wrapper_dienstentext {
+	float: left;
+	width: 25%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 8vh;
+	height: 64vh;
+}
+
+#diensten_analyse {
+	width: 90%;
+	height: 30vh;
+	padding-top: 7vh;
+	padding-left: 10%;
+	background-color: #f3f3f3;
+}
+
+#diensten_ontwerp {
+	width: 90%;
+	height: 30vh;
+	padding-top: 7vh;
+	padding-left: 10%;
+}
+
+#diensten_ontwikkelen {
+	width: 90%;
+	height: 30vh;
+	padding-top: 7vh;
+	padding-left: 10%;
+	background-color: #f3f3f3;
+}
+
+#diensten_resultaat {
+	width: 90%;
+	height: 30vh;
+	padding-top: 7vh;
+	padding-left: 10%;
+}
+
+#diensten_bijstand {
+	width: 90%;
+	height: 33vh;
+	padding-top: 7vh;
+	padding-left: 10%;
+	background-color: #f3f3f3;
+}
+
+.lefticon {
+	width: 15%;
+	height: 27vh;
+	border-bottom: 4px solid #fc4848;
+	float: left;
+}
+
+.lefttext {
+	width: 45%;
+	height: 25vh;
+	float: left;
+	padding-left: 5%;
+	padding-right: 25%;
+	padding-top: 2vh;
+	
+}
+
+.righticon {
+	width: 15%;
+	height: 27vh;
+	border-bottom: 4px solid #fc4848;
+	float: left;
+}
+
+.righttext {
+	width: 45%;
+	height: 25vh;
+	float: left;
+	padding-right: 5%;
+	padding-left: 25%;
+	padding-top: 2vh;
+	text-align: right;
+}
+
+/*Portfolio*/
+
+#wrapper_portfolioimg {
+	width: 45%;
+	height: 72vh;
+	float: left;
+	background-image: url("../img/portfolioimg.jpg");
+	background-repeat: no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
+}
+
+#wrapper_portfoliobox {
+	float: left;
+	width: 25%;
+	height: 72vh;
+	padding-left: 10%;
+	padding-right: 20%;
+}
+
+#portfolio_header {
+	width: 100%;
+	height: 20vh;
+}
+
+#portfolio_text {
+	width: 100%;
+	height: 52vh;
+	padding-left: 10%;
+}
+
+#portfolio_info {
+	width: 60%;
+	height: 140vh;
+	padding-left: 20%;
+	padding-right: 15%;
+}
+
+.portfolio_row {
+	width: 100%;
+	height: 35vh;
+}
+
+.portfolio_rowleft {
+	width: 40%;
+	height: 35vh;
+	text-align: center;
+	padding-left: 5%;
+	padding-right: 5%;
+	float: left;
+}
+
+/*Contact*/
+
+#wrapper_contactimg {
+	width: 55%;
+	height: 62vh;
+	padding-top: 10vh;
+	float: left;
+	background-image: url("../img/contactimg.jpg");
+	background-repeat: no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
+}
+
+#wrapper_contacttext {
+	float: left;
+	width: 37%;
+	height: 63vh;
+	padding-top: 9vh;
+	padding-left: 8%;
+}
+
+/*Footer*/
+footer {
+	width: 60%;
+	height: 5vh;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 3vh;
+	text-align: center;
+	-webkit-column-count: 3; 
+    -moz-column-count: 3; 
+    column-count: 3;
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px; 
+    column-gap: 30px;
+    -webkit-column-rule: 2px outset #313444; 
+    -moz-column-rule: 2px outset #313444; 
+    column-rule: 2px outset #313444;
+}
+
+/* 2. Opmaak nav, titels, teksten, lijsten, tabellen, etc. */
+
+@font-face {
+    font-family: 'lemonmilkregular';
+    src: url('../fonts/lemonmilk-webfont.woff2') format('woff2'),
+         url('../fonts/lemonmilk-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+	font-family: 'lemonmilkregular', sans-serif;
+	font-size: 4em;
+	background-color: white;
+	display: inline;
+	padding: 0px 15px 0px 15px;
+	color: #313444;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2.5em;
+	background-color: white;
+	display: inline;
+	padding: 3px 15px 4px 15px;
+	color: #fc4848;
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
+	color: #313444;
+	font-weight: bold;
+	padding-bottom: 2vh;
+}
+
+h4 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.9em;
+	color: #fc4848;
+}
+
+h5 {
+	font-family: 'lemonmilkregular', sans-serif;
+	font-size: 1.9em;
+	color: #313444;
+	padding-bottom: 3vh;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	color: #313444;
+
+}
+
+span.indextitle {
+	padding-left: 20%;
+}
+
+span.indextitle2 {
+	padding-left: 40%;
+}
+
+span.contacttitle2 {
+	padding-right: 15%;
+	float: right;
+}
+
+span.slash {
+	color: #fc4848;
+}
+
+span.quotes {
+	font-style: italic;
+}
+
+a.readmore {
+	color: #fc4848;
+	text-decoration: none;
+}
+
+ul.navlist {
+	list-style-type: none;
+	padding-top: 2vh;
+	padding-left: 5%;
+	background-color: white;
+}
+
+ul.navlist > li {
+	display: inline;
+	float: left;
+	clear: right;
+	font-weight: lighter;
+	list-style-type: none;
+	text-decoration: none;
+	font-size: 1em;
+}
+
+ul.navlist > li > a {
+	display: block;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	color: #313444;
+	padding: 24px 22px 10px 22px;
+	text-align: center;
+	border-bottom: 2px solid transparent;
+}
+
+ul.navlist > li > a:hover {
+	border-bottom-color: #fc4848;
+}
+
+ul.navlist > li > a.active {
+	border-bottom-color: #fc4848;
+}
+
+a.teamlink {
+	color: #fc4848;
+	text-decoration: none;
+}
+
+fieldset {
+	border: none;
+}
+
+td.formcolumn {
+	padding-bottom: 1vh;
+}
+
+td.formcolumnbutton {
+	text-align: center;
+}
+
+table.formulier {
+	width: 80%;
+}
+
+table.overview {
+	width: 100%;
+	border: 1px solid black;
+	background-color: red;
+	height: 60vh;
+}
+
+textarea {
+	width: 100%;
+	height: 14vh;
+	min-width: 100%;
+	min-height: 14vh;
+	resize: none;
+}
+
+#telefoon,
+#email,
+#naam {
+	width: 100%;
+}
+
+.button {
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    padding: 0.50em 2em;
+    text-decoration: none;
+    min-width: 10%;
+    margin-bottom: 2vh;
+}
+
+.button:hover {
+    text-decoration: none;
+}
+
+.button--default,
+.button--default:active,
+.button--default:visited {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fc4848;
+    border-radius: 0.6em;
+    border: none;
+    font-size: 1em;
+    font-weight: lighter;
+    color: #FFF;
+}
+
+.button--default:hover {
+    background-color: #dd2e2e;
+    color: #FFF;
+}
+
+table.homebuttons {
+	width: 100%;
+	text-align: center;
+	padding-top: 6vh;
+}
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px;
+    right: 30px; 
+    z-index: 99; 
+    border: none;
+    outline: none;
+    background-color: #fc4848;
+    color: white; 
+    cursor: pointer;
+    padding: 10px; 
+    border-radius: 0.6em;
+}
+
+#myBtn:hover {
+    background-color: #dd2e2e;
+}
+
+/* 3. Opmaak afbeeldingen */
+
+.logo_grafagency {
+	width: 5%;
+	display: inline;
+	float: left;
+}
+
+.sociallink {
+	width: 8%;
+	padding-left: 20px;
+}
+
+.diensten_fotoclass {
+	width: 100%;
+}
+
+.indeximg {
+	width: 100%;
+	padding-top: 3vh;
+}
+
+.medewerkers_fotoclass {
+	width: 100%;
+}
+
+.websites {
+	width: 100%;
+	padding-bottom: 2vh;
+	-webkit-transition:all 0.2s ease-out;
+	-moz-transition:all 0.2s ease-out;
+	-ms-transition:all 0.2s ease-out;
+	-o-transition:all 0.2s ease-out;
+ 	transition:all 0.2s ease-out;
+ }
+
+.websites:hover {
+  border-bottom: 4px solid #fc4848;
+}
+
+

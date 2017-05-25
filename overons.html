@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+
+		  <html lang ="nl">
+		  <meta charset="UTF-8"/>
+		  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+		  <link rel="stylesheet" href="css/main.css">
+		  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+		  <title>Opdracht Webdesign II: New Media Agency</title>
+
+			<!-- SMOOTH SCROLL -->
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+			<script>
+			$(function() {
+			$('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			var target = $(this.hash);
+			target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			if (target.length) {
+			$('html,body').animate({
+			scrollTop: target.offset().top
+			}, 1000);
+			return false;
+			}
+			}
+			});
+			});
+			</script>
+			<!-- End of SMOOTH SCROLL -->
+
+			<!-- BEGIN Knop naar boven -->
+			<script>
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+    		if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+        	document.getElementById("myBtn").style.display = "block";
+    		} else {
+        	document.getElementById("myBtn").style.display = "none";
+    		}
+			}
+
+			function topFunction() {
+    		document.body.scrollTop = 0; // For Chrome, Safari and Opera 
+    		document.documentElement.scrollTop = 0; // For IE and Firefox
+			}
+			</script>
+			<!-- EINDE Knop naar boven -->
+
+	</head>
+
+<body>
+
+	<button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
+
+	<div id="wrapper_nav">
+
+		<nav>
+			<ul class="navlist">
+				<img class="logo_grafagency" src="img/logo_grafagency.jpg" alt="Het logo van Grafagency.">
+				<li><a href="index.html">Home</a></li>
+				<li><a class= "active" href="overons.html">Over ons</a></li>
+				<li><a href="diensten.html">Diensten</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+	</div>
+
+	<div id="wrapper_toppart">
+
+		<div id="wrapper_overonsimg">
+
+			<span class="indextitle">
+				<h1>OVER ONS</h1></br>
+			</span>
+			<span class="indextitle2">
+				<h2>ontmoet het team</h2>
+			</span>
+
+		</div>
+
+		<div id="wrapper_overonstext">
+
+			<h3>Meer dan developers</h3>
+			<p>Hier bij Grafagency zijn we niet enkel bezig met het ontwikkelen van websites en dergelijke.</br> Bij ons kan u er zeker van zijn dat we u helpen om uw project te ontwikkelen en zo de best mogelijke resultaten te halen. We bestaan uit een jong en dynamisch team van vier en allen delen we onze kwaliteiten met elkaar en hebben we sterktepunten. Bij ons mag u er zeker van zijn dat uw project naar het volste potentieel wordt uitgewerkt. We begeleiden u persoonlijk gedurende het hele proces rond het maken van een website. </br></br>Natuurlijk eindigt het verhaal met ons niet wanneer uw site af is. We blijven constant beschikbaar om uw website aan te passen, te vernieuwen, noem maar op! Ten slotte bent u bij ons altijd koning, zélfs wanneer we een volledige site hebben opgeleverd. Nog niet overtuigd? Neem een kijkje <a class="teamlink" href="#medewerkers">binnen ons team.</a></p>
+
+		</div>
+
+	</div>
+
+	<div id="medewerkers">
+
+		<div class="medewerkers_foto">
+
+			<div class="medewerkers_nametag">
+
+				<h3>Sander Vereecke</h3>
+				<h4>Hoofdontwerper</h4>
+
+			</div>
+
+			<img class="medewerkers_fotoclass" src="img/Sander_Vereecke.jpg" alt="Een foto van Sander Vereecke, onze hoofdontwerper.">
+
+		</div>
+
+		<div class="medewerkers_foto">
+
+			<div class="medewerkers_nametag">
+
+				<h3>Jan Baets</h3>
+				<h4>Ontwerper/analist</h4>
+
+			</div>
+
+			<img class="medewerkers_fotoclass" src="img/Jan_Baets.jpg" alt="Een foto van Jan Baets, onze ontwerper en analist.">
+
+		</div>
+
+		<div class="medewerkers_foto">
+
+			<div class="medewerkers_nametag">
+
+				<h3>An Smeedts</h3>
+				<h4>Developer</h4>
+
+			</div>
+
+			<img class="medewerkers_fotoclass" src="img/An_Smeedts.jpg" alt="Een foto van An Smeedts, één van onze developers.">
+
+		</div>
+
+		<div class="medewerkers_foto">
+
+			<div class="medewerkers_nametag">
+
+				<h3>Bert Vals</h3>
+				<h4>Developer</h4>
+
+			</div>
+
+			<img class="medewerkers_fotoclass" src="img/Bert_Vals.jpg" alt="Een foto van Bert Vals, één van onze developers.">
+
+		</div>
+
+	</div>
+
+	<div id="medewerkers2">
+
+		<div class="medewerkers_uitleg">
+			<p><span class="quotes">"Het ontwerproces leert je de klant waarmee je werkt echt kennen. Het is een soort van kennismaking met hem en zijn plan."</span></p>
+		</div>
+
+		<div class="medewerkers_uitleg">
+			<p><span class="quotes">"Om tot een goed eindresultaat te komen is het belangrijk dat je begint met een goede analyse. Je moet weten voor wie je iets maakt."</span></p>
+
+		</div>
+
+		<div class="medewerkers_uitleg">
+			<p><span class="quotes">"Het is belangrijk om goed te begrijpen wat het ontwerp inhoudt. Daarom bespreek ik steeds het ontwerp met de klant voor ik begin."</span></p>
+		</div>
+
+		<div class="medewerkers_uitleg">
+			<p><span class="quotes">"Iedere klant heeft andere wensen voor zijn of haar website, dat maakt dit zo uitdagend."</span></p>
+		</div>
+
+	</div>
+
+	<footer>
+		<p>grafagency@info.be</p>
+		<p>0496 35 62 64</p>
+		<a class= "active" href="http://www.facebook.com" target="_blank"><img class="sociallink" src="img/facebook.jpg" alt="Facebook link"></a>
+		<a class= "active" href="https://www.twitter.com" target="_blank"><img class="sociallink" src="img/twitter.jpg" alt="Twitter link"></a>
+		<a class= "active" href="http://www.linkedin.com" target="_blank"><img class="sociallink" src="img/linkedin.jpg" alt="Linkedin link"></a>
+	</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+
+		  <html lang ="nl">
+		  <meta charset="UTF-8"/>
+		  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+		  <link rel="stylesheet" href="css/main.css">
+		  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+		  <title>Opdracht Webdesign II: New Media Agency</title>
+
+		  <!-- SMOOTH SCROLL -->
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+			<script>
+			$(function() {
+			$('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			var target = $(this.hash);
+			target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			if (target.length) {
+			$('html,body').animate({
+			scrollTop: target.offset().top
+			}, 1000);
+			return false;
+			}
+			}
+			});
+			});
+			</script>
+			<!-- End of SMOOTH SCROLL -->
+
+			<!-- BEGIN Knop naar boven -->
+			<script>
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+    		if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+        	document.getElementById("myBtn").style.display = "block";
+    		} else {
+        	document.getElementById("myBtn").style.display = "none";
+    		}
+			}
+
+			function topFunction() {
+    		document.body.scrollTop = 0; // For Chrome, Safari and Opera 
+    		document.documentElement.scrollTop = 0; // For IE and Firefox
+			}
+			</script>
+			<!-- EINDE Knop naar boven -->
+
+	</head>
+
+<body>
+
+	<button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
+
+	<div id="wrapper_nav">
+
+		<nav>
+			<ul class="navlist">
+				<img class="logo_grafagency" src="img/logo_grafagency.jpg" alt="Het logo van Grafagency.">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="overons.html">Over ons</a></li>
+				<li><a href="diensten.html">Diensten</a></li>
+				<li><a class= "active" href="portfolio.html">Portfolio</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+	</div>
+
+	<div id="wrapper_toppart">
+
+		<div id="wrapper_portfoliobox">
+
+			
+			<div id="portfolio_header">
+				<h1>PORTFOLIO</h1></br>
+			<span class="indextitle2">
+				<h2>eerdere klanten</h2>
+			</span>
+			</div>
+
+			<div id="portfolio_text">
+
+			<h3>Ervaring</h3>
+			<p>We begrijpen dat we een nog niet zo  bekende naam zijn tussen alle grote spelers in de wereld van webdesign. Toch hebben wij al redelijk wat ervaring en maakten we sites voor bekende zelfstandigen en ook grote bedrijven.</p>
+		</br>
+			<h3>Portfolio</h3>
+			<p>In het verleden waren we betrokken bij projecten voor Redbull, Rock Werchter, Microsoft's Xbox, Tomorrowland,... Ook maakten we reeds sites voor kleine bedrijven. Dit gaat van bedrijven zoals New Adventures, lastminutesports.be en dergelijke. Neem gerust een kijkje in <a class="teamlink" href="#portfolio_info">ons portfolio.</a></p>
+
+			</div>
+
+		</div>
+
+		<div id="wrapper_portfolioimg">
+
+
+		</div>
+
+	</div>
+
+	<div id="portfolio_info">
+
+		<div class="portfolio_row">
+
+			<div class="portfolio_rowleft">
+				<a href="#"><img class="websites" src="img/newadventures.jpg" alt="Een foto van de website van New Adventures."></a>
+				<p>Website New Adventures <span class="slash">//</span> 23/05/'14</p>
+			</div>
+			<div class="portfolio_rowleft">
+				<a href="https://www.redbull.com/be-nl/" target="blank"><img class="websites" src="img/redbull.jpg" alt="Een foto van de website van Redbull."></a>
+				<p>Website Redbull <span class="slash">//</span> 12/08/'16</p>
+			</div>
+
+		</div>
+
+		<div class="portfolio_row">
+
+			<div class="portfolio_rowleft">
+				<a href="http://www.rockwerchter.be/nl" target="blank"><img class="websites" src="img/rock.jpg" alt="Een foto van de website van Rock Werchter."></a>
+				<p>Website Rock Werchter <span class="slash">//</span> 17/04/'16</p>
+			</div>
+			<div class="portfolio_rowleft">
+				<a href="#"><img class="websites" src="img/lastminutesports.jpg" alt="Een foto van de website van Last Minute Sports."></a>
+				<p>Website Last Minute Sports <span class="slash">//</span> 05/10/'16</p>
+			</div>
+
+		</div>
+
+		<div class="portfolio_row">
+
+			<div class="portfolio_rowleft">
+				<a href="http://www.xbox.com/nl-BE/" target="blank"><img class="websites" src="img/xbox.jpg" alt="Een foto van de website van Microsofts' Xbox."></a>
+				<p>Website Microsofts' Xbox <span class="slash">//</span> 10/10/'15</p>
+			</div>
+			<div class="portfolio_rowleft">
+				<a href="https://www.tomorrowland.com/global/" target="blank"><img class="websites" src="img/tomorrowland.jpg" alt="Een foto van de website van Tomorrowland."></a>
+				<p>Website Tomorrowland <span class="slash">//</span> 22/06/'16</p>
+			</div>
+
+		</div>
+
+		<div class="portfolio_row">
+
+			<div class="portfolio_rowleft">
+				<a href="http://www.artline.com.au/" target="blank"><img class="websites" src="img/artline.jpg" alt="Een foto van de website van Artline Drawing Systems."></a>
+				<p>Website Artline Drawing Systems <span class="slash">//</span> 27/07/'14</p>
+			</div>
+			<div class="portfolio_rowleft"></div>
+
+		</div>
+
+	</div>
+
+	<footer>
+		<p>grafagency@info.be</p>
+		<p>0496 35 62 64</p>
+		<a class= "active" href="http://www.facebook.com" target="_blank"><img class="sociallink" src="img/facebook.jpg" alt="Facebook link"></a>
+		<a class= "active" href="https://www.twitter.com" target="_blank"><img class="sociallink" src="img/twitter.jpg" alt="Twitter link"></a>
+		<a class= "active" href="http://www.linkedin.com" target="_blank"><img class="sociallink" src="img/linkedin.jpg" alt="Linkedin link"></a>
+	</footer>
+
+</body>
+
+</html>

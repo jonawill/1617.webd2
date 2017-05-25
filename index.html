@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+
+		  <html lang ="nl">
+		  <meta charset="UTF-8"/>
+		  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+		  <link rel="stylesheet" href="css/main.css">
+		  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+		  <title>Opdracht Webdesign II: New Media Agency</title>
+
+			<!-- SMOOTH SCROLL -->
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+			<script>
+			$(function() {
+			$('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			var target = $(this.hash);
+			target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			if (target.length) {
+			$('html,body').animate({
+			scrollTop: target.offset().top
+			}, 1000);
+			return false;
+			}
+			}
+			});
+			});
+			</script>
+			<!-- End of SMOOTH SCROLL -->
+
+			<!-- BEGIN Knop naar boven -->
+			<script>
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+    		if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+        	document.getElementById("myBtn").style.display = "block";
+    		} else {
+        	document.getElementById("myBtn").style.display = "none";
+    		}
+			}
+
+			function topFunction() {
+    		document.body.scrollTop = 0; // For Chrome, Safari and Opera 
+    		document.documentElement.scrollTop = 0; // For IE and Firefox
+			}
+			</script>
+			<!-- EINDE Knop naar boven -->
+
+	</head>
+
+<body>
+
+	<button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
+
+	<div id="wrapper_nav">
+
+		<nav>
+			<ul class="navlist">
+				<img class="logo_grafagency" src="img/logo_grafagency.jpg" alt="Het logo van Grafagency.">
+				<li><a class= "active" href="index.html">Home</a></li>
+				<li><a href="overons.html">Over ons</a></li>
+				<li><a href="diensten.html">Diensten</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+	</div>
+
+	<div id="wrapper_toppart">
+
+		<div id="wrapper_indeximg">
+
+			<span class="indextitle">
+				<h1>GRAFAGENCY</h1></br>
+			</span>
+			<span class="indextitle2">
+				<h2>creating your online wishes</h2></br>
+			</span>
+
+			<table class="homebuttons">
+			<tr>	
+				<td><a href="#brief_overview" class="button button--default">Overzicht</a></td>
+			</tr>	
+			</table>
+
+	</div>
+
+	</div>
+
+		<div id="brief_overview">
+
+			<div id="overview_top">
+
+				<div id="top_left">
+
+					<h5>Over ons</h5>
+					<p>Hier bij Grafagency zijn we niet enkel bezig met het ontwikkelen van websites en dergelijke. Bij ons kan u er zeker van zijn dat we u helpen om uw project te ontwikkelen <a class="readmore" href="overons.html">(...)</a></p>
+
+				</div>
+
+				<div id="top_middle">
+
+					<img class="indeximg" src="img/indeximg.png" alt="Een flatdesign-afbeelding.">
+
+				</div>
+
+				<div id="top_right">
+
+					<h5>Diensten</h5>
+					<p>Het lijkt ons maar logisch dat enkel een website afleveren niet het enige is wat we voor u doen. We beschouwen onszelf écht wel als een bedrijf dat u helpt gedurende het hele proces <a class="readmore" href="diensten.html">(...)</a></p>
+
+				</div>
+
+			</div>
+
+			<div id="overview_bottom">
+
+				<div id="bottom_left">
+
+					<h5>Portfolio</h5>
+					<p>We begrijpen dat we een nog niet zo bekende naam zijn tussen alle grote spelers in de wereld van webdesign. Toch hebben wij al redelijk wat ervaring en maakten we sites voor <a class="readmore" href="portfolio.html">(...)</a></p>
+
+				</div>
+
+				<div id="bottom_right">
+
+					<h5>Contact</h5>
+					<p>Stuur ons gerust een bericht! Zit u met vragen of is er iets niet duidelijk? We hebben een contactpagina die u de kans geeft om vragen te stellen. <a class="readmore" href="contact.html">Ga naar de contactpagina.</a></p>
+
+				</div>
+
+			</div>
+
+	<footer>
+		<p>grafagency@info.be</p>
+		<p>0496 35 62 64</p>
+		<a class= "active" href="http://www.facebook.com" target="_blank"><img class="sociallink" src="img/facebook.jpg" alt="Facebook link"></a>
+		<a class= "active" href="https://www.twitter.com" target="_blank"><img class="sociallink" src="img/twitter.jpg" alt="Twitter link"></a>
+		<a class= "active" href="http://www.linkedin.com" target="_blank"><img class="sociallink" src="img/linkedin.jpg" alt="Linkedin link"></a>
+	</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+
+		  <html lang ="nl">
+		  <meta charset="UTF-8"/>
+		  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+		  <link rel="stylesheet" href="css/main.css">
+		  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+		  <title>Opdracht Webdesign II: New Media Agency</title>
+
+			<!-- SMOOTH SCROLL -->
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+			<script>
+			$(function() {
+			$('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			var target = $(this.hash);
+			target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			if (target.length) {
+			$('html,body').animate({
+			scrollTop: target.offset().top
+			}, 1000);
+			return false;
+			}
+			}
+			});
+			});
+			</script>
+			<!-- End of SMOOTH SCROLL -->
+
+			<!-- BEGIN Knop naar boven -->
+			<script>
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+    		if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+        	document.getElementById("myBtn").style.display = "block";
+    		} else {
+        	document.getElementById("myBtn").style.display = "none";
+    		}
+			}
+
+			function topFunction() {
+    		document.body.scrollTop = 0; // For Chrome, Safari and Opera 
+    		document.documentElement.scrollTop = 0; // For IE and Firefox
+			}
+			</script>
+			<!-- EINDE Knop naar boven -->
+
+	</head>
+
+<body>
+
+	<button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
+
+	<div id="wrapper_nav">
+
+		<nav>
+			<ul class="navlist">
+				<img class="logo_grafagency" src="img/logo_grafagency.jpg" alt="Het logo van Grafagency.">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="overons.html">Over ons</a></li>
+				<li><a class= "active" href="diensten.html">Diensten</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+	</div>
+
+	<div id="wrapper_toppart">
+
+		<div id="wrapper_dienstentext">
+
+			<h3>Wat kunnen we voor u doen?</h3>
+			<p>Het lijkt ons maar logisch dat enkel een website afleveren niet het enige is wat we voor u doen. We beschouwen onszelf écht wel als een bedrijf dat u helpt gedurende het hele proces dat komt kijken bij het maken van een website.</p>
+		</br>
+			<h3>Hoe doen we dit voor u?</h3>
+			<p>Om te beginnen helpen we u een goede analyse te maken, we kijken wie uw doelgroepen zijn en wat u wil bereiken. Daarna ontwerpen we een website samen met u. Het is voor ons belangrijk dat u zelf een groot aandeel heeft in hoe uw site er uiteindelijk uitziet. De site wordt door ons gemaakt en we geven intijds snippets van de vorderingen, zo kan u bijsturen wanneer u het wenst. Ook helpen we uw website te lanceren en hem te onderhouden. Dit betekent dat we hem up-to-date houden en problemen oplossen wanneer nodig.<a class="teamlink" href="#diensten_analyse"> Meer informatie nodig?</a></p>
+
+		</div>
+
+		<div id="wrapper_dienstenimg">
+
+			<span class="indextitle">
+				<h1>DIENSTEN</h1></br>
+			</span>
+			<span class="indextitle2">
+				<h2>vertrouw onze aanpak</h2>
+			</span>
+
+		</div>
+
+	</div>
+
+	<div id="diensten_analyse">
+
+		<div class="lefticon">
+
+			<img class="diensten_fotoclass" src="img/analyse.png" alt="Een flatdesign-afbeelding.">
+
+		</div>
+
+		<div class="lefttext">
+
+			<h5>Analyse</h5>
+			<p>Een analyse is ruim, zéér ruim. Wij proberen om je een zo goed mogelijke analyse te maken en dit samen te vatten tot de essentie. Onder een analyse kan je bij ons veel dingen verstaan; we zoeken je doelgroep, maken een nuchtere analyse van wat je met je site wil bereiken en nog veel meer. We gebruiken hier voor ons eigen technieken en de bedoeling is dat je een duidelijk beeld krijgt met vooropgestelde doelen.</p>
+
+		</div>
+
+	</div>
+
+	<div id="diensten_ontwerp">
+
+		<div class="righttext">
+
+			<h5>Ontwerp</h5>
+			<p>"Inspiration is key", hier bij Grafagency hebben we genoeg inspiratievolle mensen die u een realistisch ontwerp van uw site kunnen voorleggen. Ons lijkt het natuurlijk alleen maar logisch dat u zelf ook ideeën mag delen met ons waar we zeker rekening mee houden. Bevalt iets je niet? Geen probleem, dan brainstormen we gewoon nog even verder om u een ontwerp voor te leggen dat voldoet aan al uw eisen. Communicatie is de sleutel tot een goed ontwerp. </p>
+
+		</div>
+
+		<div class="righticon">
+
+			<img class="diensten_fotoclass" src="img/ontwerp.png" alt="Een flatdesign-afbeelding.">
+
+		</div>
+
+	</div>
+
+	<div id="diensten_ontwikkelen">
+
+		<div class="lefticon">
+
+			<img class="diensten_fotoclass" src="img/ontwikkelen.png" alt="Een flatdesign-afbeelding.">
+
+		</div>
+
+		<div class="lefttext">
+
+			<h5>Ontwikkelen</h5>
+			<p>Vermoedelijk de enige stap waar u niet veel kunt helpen: sit back and relax, we'll do all the work! Een website coderen is natuurlijk een kunst en niet voor iedereen weggelegd. Daarom hebben we twee uitstekende developers die uw ontwerp helemaal digitaal uitwerken van A tot Z. De eerste versie wordt getoond aan u zodra deze beschikbaar is. Hierna zitten we even samen om te kijken wat beter kan of wat u anders had gewenst.</p>
+
+		</div>
+
+	</div>
+
+	<div id="diensten_resultaat">
+
+		<div class="righttext">
+
+			<h5>Resultaat</h5>
+			<p>Natuurlijk blijft het niet enkel bij ontwerpen en speculeren. Binnen de afgesproken deadline leveren we u een afgewerkte website die klaar is om gelanceerd te worden. We bespreken manieren om bezoekers te trekken en stellen zelf onze eigen technieken voor. De eerste weken monitoren we actief uw website om te kijken of alles naar wens verloopt. Indien er problemen zijn kunnen we deze direct verhelpen.</p>
+
+		</div>
+
+		<div class="righticon">
+
+			<img class="diensten_fotoclass" src="img/resultaat.png" alt="Een flatdesign-afbeelding.">
+
+		</div>
+
+	</div>
+
+	<div id="diensten_bijstand">
+
+		<div class="lefticon">
+
+			<img class="diensten_fotoclass" src="img/bijstand.png" alt="Een flatdesign-afbeelding.">
+
+		</div>
+
+		<div class="lefttext">
+
+			<h5>Bijstand</h5>
+			<p>Geen zorgen, zodra de website af is zijn we er ook want we blijven continue beschikbaar om uw vragen te beantwoorden. We spelen in op de laatste trends en zullen u ook voorstellen doen om dingen aan te passen of te implementeren in uw website die relevant zijn voor u. Indien na een lange tijd uw website een opknapbeurt nodig heeft of verouderde dingen vernieuwd moeten worden dan staan we direct klaar voor u!</p>
+
+		</div>
+
+	</div>
+
+	<footer>
+		<p>grafagency@info.be</p>
+		<p>0496 35 62 64</p>
+		<a class= "active" href="http://www.facebook.com" target="_blank"><img class="sociallink" src="img/facebook.jpg" alt="Facebook link"></a>
+		<a class= "active" href="https://www.twitter.com" target="_blank"><img class="sociallink" src="img/twitter.jpg" alt="Twitter link"></a>
+		<a class= "active" href="http://www.linkedin.com" target="_blank"><img class="sociallink" src="img/linkedin.jpg" alt="Linkedin link"></a>
+	</footer>
+
+</body>
+
+</html>
